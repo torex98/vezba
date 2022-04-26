@@ -183,7 +183,7 @@ for(automobil in automobili){
 }
 
 //RACUNANJE MESECNE RATE
-
+*/
 let nekretnine = {
     stan: 70000,
     kuca: 150000,
@@ -194,7 +194,7 @@ racunanje_mesecne_rate(15, 'stan');
 
 racunanje_mesecne_rate(5, 'plac');
 
-racunanje_mesecne_rate(20, 'kuca');
+racunanje_mesecne_rate(19, 'kuca');
 
 
 function racunanje_mesecne_rate(godine, vrsta_nekretnine) {
@@ -202,5 +202,5 @@ function racunanje_mesecne_rate(godine, vrsta_nekretnine) {
     let rata = nekretnine[vrsta_nekretnine] / meseci;
     rata = rata.toFixed(2);
 
-    console.log(`-------------------\nMesecna rata za ${vrsta_nekretnine} iznosi ${rata} na ${godine} godina.`);
+    console.log(`#############\nMesecna rata za ${vrsta_nekretnine} iznosi ${rata} na ${godine} godina.`);
 }
