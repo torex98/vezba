@@ -183,7 +183,7 @@ for(automobil in automobili){
 }
 
 //RACUNANJE MESECNE RATE
-
+*/
 let nekretnine = {
     stan: 70000,
     kuca: 150000,
