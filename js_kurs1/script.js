@@ -183,7 +183,7 @@ for(automobil in automobili){
 }
 
 //RACUNANJE MESECNE RATE
-*/
+
 let nekretnine = {
     stan: 70000,
     kuca: 150000,
@@ -204,3 +204,13 @@ function racunanje_mesecne_rate(godine, vrsta_nekretnine) {
 
     console.log(`#############\nMesecna rata za ${vrsta_nekretnine} iznosi ${rata} na ${godine} godina.`);
 }
+*/
+let novcanice = [200, 10, 5, 20, 50, 10, 100];
+let ukupno_novca = 0;
+
+for(let novcanica of novcanice){
+        console.log(novcanica);
+          ukupno_novca += novcanica;
+
+}
+    console.log(`###KRAJ PETLJE###\nUkupno imamo ${ukupno_novca} eura`); 
